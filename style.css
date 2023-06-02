@@ -1,0 +1,29 @@
+body{
+   background-color: rgb(10, 12, 11);
+}
+
+.clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translateX(-50%) translateY(-50%);
+    display: flex;
+}
+
+.time{
+    background-color: rgb(0, 0, 0);
+    color: brown;
+    font-size: 70px;
+    width: 150px;
+    margin:  0px 10px;
+    text-align: center;
+}
+
+.heading{
+    color: red;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
